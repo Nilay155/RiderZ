@@ -1,0 +1,478 @@
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    align-items: center;
+    height: 80px;
+    background-color: rgb(78, 75, 75);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    padding: 20px;
+    
+}
+.logo{
+    object-fit: contain;
+   
+}
+ul{
+    align-items: center;
+}
+.MAIN{
+    height: 80vh;
+    background: rgb(2,0,4);
+    background: linear-gradient(90deg, rgba(2,0,4,1) 57%, rgba(252,176,69,1) 58%);
+    color: white;
+    align-items: center;
+    display:grid;
+    grid-template-columns: 845px auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.MAIN div{
+    height: 80vh;
+   
+    
+font-family: Arial, Helvetica, sans-serif;
+}
+.coloro{
+    color: orange;
+    position: relative;
+    
+    font-size: 30px;
+}
+.submain1{
+    position: relative;
+    top: 150px;
+    left: 90px;
+}
+p{
+    width: 450px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border: 1px orange solid;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+h1{
+    font-size: 60px;
+    width: 650px;
+}
+span{
+    margin-top: 30px;
+}
+.cycle1{
+    position: relative;
+    left: -140px;
+    top: 80px;
+}
+button:hover{
+    background-color: orange;
+    color: WHITE;
+}
+.MAIN2{
+    display: grid;
+    grid-template-columns: repeat(3,499px);
+    height: 50vh;
+    /* background-color: aqua; */
+}
+.MAIN2 div{
+    border: 1px black solid;
+}
+.i1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(cycle2.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+.i2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(cycle3.webp);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+.i3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(cycle4.webp);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+.i1 h2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 40px;
+    width: 150px;
+}
+.i1 span{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.orange{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    border-radius: 0px;
+    background-color: orange;
+    color: white;
+}
+.i2 h2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 40px;
+    width: 250px;
+}
+.i2 span{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.i3 h2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 40px;
+    width: 250px;
+}
+.i3 span{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.MAIN3{
+    text-align: Center;
+    gap: 20px;
+
+}
+.MAIN3 h4{
+    margin-top: 70px;
+    color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.MAIN3 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.MAIN4{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 20px;
+}
+.MAIN4 div{
+   
+    position: relative;
+    left: 100px;
+    align-items: center;
+    text-align: center;
+}
+.MAIN4 div i{
+font-size: 80px;
+margin-top: 90px;
+}
+.MAIN4 div h3{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MAIN4 div p{
+width: 190px;
+position: relative;
+left: 105px;
+}
+
+.MAIN5{
+height:500px;
+background-color: aqua;
+display: grid;
+grid-template-columns: repeat(2,auto);
+}
+.MAIN51{
+    
+    background-image: url(main5.1.webp);
+    background-size: cover;
+    
+}
+.MAIN52{
+    background-image: url(main5.2.jpg);
+    background-size: cover;
+    
+    
+}
+.MAIN5 div h2{
+position: relative;
+left: 70px;
+top: 60px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 40px
+}
+.MAIN5 div p{
+position: relative;
+top: 40px;
+left:70px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.MAIN5 div button{
+position: relative;
+top: 40px;
+left: 50px;
+border-radius: 2px;
+border: 2px solid orange;
+background-color: orange;
+}
+.MAIN6{
+text-align: center;
+}
+.MAIN6 h4{
+color: orange;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 60px;
+}
+.MAIN6 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 35px;
+}
+.MAIN7{
+    height: 500px;
+  
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 20px;
+}
+.MAIN7 div{
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+    position: relative;
+    left: 110px;
+    text-align: center;
+}
+.MAIN7 div h3{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MAIN7 div h4{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MAIN8{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(big.jpg);
+    background-size: cover;
+    position: relative;
+    top: 10px;
+ color: white; 
+ text-align: center;  
+}
+.MAIN8 h4{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 90px;
+
+}
+.MAIN8 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    position: relative;
+    top: 80px;
+    left: 320px;
+    width: 800px;
+}
+.MAIN8 input{
+    position: relative;
+    top: 80px;
+    height: 45px;
+    width: 500px;
+}
+.MAIN8 button{
+    position: relative;
+    top: 80px;
+    left: -20px;
+    border-radius: 2px;
+    background-color: orange;
+}
+.MAIN9 {
+    text-align: center;
+   
+}
+.MAIN9 h4{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 60px;
+}
+.MAIN9 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+   
+}
+.MAIN10{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4,350px);
+    grid-template-rows: repeat(8,auto);
+    gap: 20px;
+}
+.MAIN10 div{
+  text-align: center;
+    height: 500px;
+    box-shadow: 0px 0px 3px 0px black;
+}
+.MAIN10 div h3{
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.MAIN10 h5{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MAIN11{
+   
+    margin-top: 300px;
+}
+.MAIN12{
+height: 50vh;
+background-color: aqua;
+margin-top: 40px;
+display: grid;
+grid-template-columns: repeat(3,499px);
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(backgroundcycle.png);
+background-size: cover;
+}
+.MAIN12 div{
+    border: 1px solid grey;
+    text-align: center;
+}
+.MAIN12 div i{
+    font-size: 50px;
+    margin-top: 90px;
+}
+.MAIN12 h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MAIN12 div span{
+color: grey;
+font-size: 13px;
+}
+.MAIN12 div button{
+    position: relative;
+    top: 20px;
+    left: -15px;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.MAIN12 div .h23{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MAIN12 div input{
+    margin-top: 20px;
+    height: 30px;
+    width: 290px;
+    position: relative;
+    left: 80px;
+}
+.MAIN12 .submain12 button{
+    color: orange;
+
+}
+.MAIN12 div .but{
+    color: orange;
+    border: 0px;
+    position: relative;
+    left: -70px;
+    top: -2px;
+
+
+}
+.MAIN12 div .but:hover{
+    background-color: transparent;
+}
+footer{
+height: 50vh;
+background-color: aqua;
+margin-top: 0px;
+display: grid;
+grid-template-columns:302px 302px 302px 302px auto;
+background-color: rgb(28, 28, 28);
+}
+footer div h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer div ul li{
+    color: grey;
+    display: block;
+    margin-top: -30px;
+    margin-left: -60px;
+}
+.submainf{
+   display: grid;
+   grid-template-columns: repeat(4,30px);
+   gap: 20px;
+}
+.submainf div{
+    border: 1px solid white;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+.submainf div i{
+    margin-top: 15px;
+}
+footer span{
+    color: grey;
+}
+
+.MAINef{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 0px 3px grey;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    transition: 1s;
+}
+.sbutton{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.sbutton button{
+    color: black;
+}
+.MAIN10 div button{
+    height: 30px;
+    width: 30px;
+    color: black;
+    border: 1px solid black;
+}
+.MAIN10 div span{
+    position: relative;
+    left: 10px;
+}
+#neeche{
+    position: relative;
+    top: 125px;
+}

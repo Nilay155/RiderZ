@@ -1,0 +1,181 @@
+.fa-bars,.fa-x{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    #list{
+        
+        position: relative;
+        top: 190px;
+        left: -100px;
+        float: left;
+        background-color: rgba(0, 255, 255, 0.31);
+        transition: 1s;
+        transform: translateY(px);
+        display: none;
+    }
+    #list li{
+        display: block;
+    }
+    .fa-bars{display: block;}
+    .cycle1{
+        
+        height: 40%;
+        position: relative;
+        left: -480px;
+        top: 120px;
+    }
+   .MAIN .submain1 p{font-size: 10px;}
+   .MAIN .submain1 button{
+   
+    font-size: 10px;
+    position: relative;
+    top: -15px;
+    left: -20px;
+}
+.MAIN2{height: 25vh;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(3,250px);
+}
+.MAIN2 div h2{
+font-size: 18px;
+} 
+.MAIN2 div span{font-size: 7px;}   
+.MAIN2 div button{
+height: 35px;
+width: 75px;
+font-size: 8px;
+position: relative;
+top: 35px;
+}
+.MAIN4{
+width: 100%;
+display: block;
+}
+.MAIN4 div p{
+width: 100%;
+position: relative;
+top: -60px;
+}
+.MAIN4 div h3{
+position: relative;
+left: -160px;
+top: -50px;
+}
+.MAIN4 div i{
+font-size: 40px;
+position: relative;
+left: -210px;
+}
+.MAIN4 div{
+height: 20vh;
+position: relative;
+left: -100px;
+top: -120px;
+}
+.MAIN3{position: relative;
+top: -40px;}
+.MAIN5{
+display: grid;
+grid-template-columns: repeat(2,370px);
+height: 250px;
+}
+.MAIN5 div{
+height: 250px;
+}
+.MAIN5 div button{
+position: relative;
+top: -px;
+height: 30px;
+width: 95px;
+}
+.MAIN7{
+display: grid;
+grid-template-columns: repeat(3,200px);
+}
+.img1,.img2,.img3{
+width: 200px;
+}
+.MAIN7 div{
+position: relative;
+left: 40px;
+}
+.MAIN8 h2{
+position: relative;
+left: -30px;
+
+}
+.MAIN10{
+display: grid;
+grid-template-columns: repeat(4,175px);
+}
+.MAIN10 div{
+height: 250px;
+}
+.image12{
+width: 175px;
+height: 125px;
+}
+.MAIN11{
+position: relative;
+top: -390px;
+}
+.MAIN12{
+display: grid;
+grid-template-columns: repeat(3,245px);
+position: relative;
+top: -350px;
+}
+.MAIN12 div input{
+width: 150px;
+position: relative;
+left: -40px;
+}
+.MAIN12 div .but{
+border: 1px solid orange;
+height: 35px;
+width: 100px;
+font-size: 12px;
+position: relative;
+top: 18px;
+}
+footer{
+margin-top: -350px;
+display: grid;
+grid-template-columns: 130px 130px 130px 130px auto;
+
+}
+footer div h2{
+font-size: 15px;
+}
+footer div ul li{
+font-size: 12px;
+}
+.submain1 h1{
+font-size: 25px;
+}
+.submain1 p{
+width: 250px;
+}
+footer span{
+width: 300px;
+}
+.MAIN10 div button{
+position: relative;
+top: -15px;
+}
+.MAIN10 div span{
+position: relative;
+top: -15px;
+}
+.MAINef{
+position: relative;
+top: -400px;
+}
+.sbutton{
+position: relative;
+top: -370px;
+}
+
+}
+.fa-sun{display: none;}

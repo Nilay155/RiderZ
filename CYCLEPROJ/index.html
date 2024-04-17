@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideZ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="mainn.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <i class="fa-solid fa-bars" id="open" onclick="show();"></i>
+        <i class="fa-solid fa-x" id="close" onclick="hide();"></i>
+        <ul id="list">
+            <li>Home</li>
+            <li>Shop</li>
+            <a href="/RiderZ/gallery/index.html"><li>Page</li></a>
+            <li>Block</li>
+            <li>Contact</li>
+        </ul>
+        <img src="01_preview.__large_preview-removebg-preview.png" class="logo" height="50px">
+    <ul>
+        <li><i class="fa-solid fa-sun" style="color: #ffffff;" id="sun" onclick="light();"></i></li><li><i class="fa-solid fa-moon" style="color: #ffffff;" id="moon" onclick="dark();"></i></li><li><a href="login.html"><i class="fa-regular fa-user" style="color: #fcfcfc;"></i></a></li>
+        <li><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></li>
+        <li><a href="/RiderZ/discordCLone/index.html"><i class="fa-regular fa-heart" style="color: #ffffff;"></i></a></li>
+        <li><a href="../modern/index.html"><i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i></a></li>
+    </ul>
+    </nav>
+
+    <div class="MAIN"><div class="submain1"><span><b>Road range 2024</b></span><br><h1>Vanquish Comp Carbon</h1><span class="coloro"><b>$1195.0</b></span><br>
+        <p>High modules carbon frames producers aerdynamics efficiency and stifness through the use of kammtail shaped tubes</p><br><button>Shop Now</button><button>Explore Products</button>
+    </div>
+    <div><img src="cycle1.png" height="70%" class="cycle1"></div></div>
+
+    <div class="MAIN2"><div class="i1"><h2>SingleTrack Speed</h2><span>The all new advance trance pro 29 series</span><br><button class="orange">Learn More</button></div>
+    <div class="i2"><h2>Trail Power</h2><span>25% OFF trance x advacne e+</span><br><button class="orange" id="neeche">Learn More</button></div>
+    <div class="i3"><h2>Road Bikes</h2><span>New style just got in</span><br><button class="orange" id="neeche">Learn More</button></div></div>
+
+    <div class="MAIN3"><h4>YOUR RIDE START HERE</h4><h2>OUR FEATURES & FACILITIES</h2>
+    </div>
+    <div class="MAIN4"><div><i class="fa-solid fa-gears" style="color: #ffa200;"></i><h3>Complete Overhaul</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia vitae provident deleniti quam totam.</p></div>
+    <div><i class="fa-solid fa-helmet-safety" style="color: #ff7b00;"></i><h3>Complete Overhaul</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia vitae provident deleniti quam totam.</p></div>
+    <div><i class="fa-solid fa-bicycle" style="color: #ffa200;"></i><h3>Complete Overhaul</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia vitae provident deleniti quam totam.</p></div></div>
+    <div class="MAIN5"><div class="MAIN51"><h2>KIDS BIKES</h2>
+    <p>Close out pricing on dozens of products</p><br><button>Shop Now</button></div>
+    <div class="MAIN52"><h2>ACCESSORIES</h2><p>Close out pricing on dozens of products</p><br><button>Shop Now</button></div></div>
+
+    <div class="MAIN6"><h4>CHECK IT OUT </h4><h2>BEST SELLER</h2></div>
+    <div class="MAIN7"><div id="img1"><img src="main6.1.jpg" height="250px" width="398px" class="img1"><h3>DURABLE LINEN BENCH</h3><h4>$95.00-$132.00</h4></div>
+    <div id="img2"><img src="main6.2.webp" height="250px" width="398px" class="img2"><h3>INCREDIBLE PLASTIC TABLE</h3><h4>$85.00-$112.00</h4></div>
+    <div id="img3"><img src="main6.4.jpg" height="250px" width="398px" class="img3"><h3>INTELLIGENT WOOL COAT</h3><h4>$115.00-$142.00</h4></div></div>
+
+
+    <div class="MAIN8"><h4>NEWSLETTER</h4><h2>Subscribe Today and get 10% off your order</h2><input type="email" placeholder="Enter you email address"><button>Submit</button></div>
+
+    <div class="MAIN9"><h4>TRY OUR PRODUCTS</h4><h2>Featured Products</h2></div>
+
+    <div class="MAIN10"><div><img src="p1.webp" height="300px" width="350px" class="image12"><h3>Cycling Shoes</h3><h5>$10.00</h5><button onclick="minus()">-</button><span id="sp">0</span><button onclick="plus()">+</button></div>
+    <div><img src="p2.webp" height="300px" width="350px" class="image12"><h3>Cycling Helmet</h3><h5>$15.00</h5><button onclick="minus2()">-</button><span id="sp2">0</span><button onclick="plus2()">+</button></div>
+    <div><img src="p3.jpg" height="300px" width="350px" class="image12"><h3>Tracker</h3><h5>$18.00</h5><button onclick="minus3()">-</button><span id="sp3">0</span><button onclick="plus3()">+</button></div>
+    <div><img src="P4.jpg" height="300px" width="350px" class="image12"><h3>Watch</h3><h5>$25.00</h5><button onclick="minus4()">-</button><span id="sp4">0</span><button onclick="plus4()">+</button></div>
+    <div><img src="p5.webp" height="300px" width="350px" class="image12"><h3>Bikes</h3><h5>$100.00</h5><button onclick="minus5()">-</button><span id="sp5">0</span><button onclick="plus5()">+</button></div>
+    <div><img src="p6.webp" height="300px" width="350px" class="image12"><h3>Gloves</h3><h5>$3.00</h5><button onclick="minus6()">-</button><span id="sp6">0</span><button onclick="plus6()">+</button></div>
+    <div><img src="p7.webp" height="300px" width="350px" class="image12"><h3>Cycle Seat</h3><h5>$10.00</h5><button onclick="minus7()">-</button><span id="sp7">0</span><button onclick="plus7()">+</button></div>
+    <div><img src="p8.jpg" height="300px" width="350px" class="image12"><h3>Sipper</h3><h5>$2.00</h5><button onclick="minus8()">-</button><span id="sp8">0</span><button onclick="plus8()">+</button></div></div>
+
+
+    <div class="MAIN11"><img src="banner.jpg" alt="" width="100%"></div>
+<div class="MAINef">
+    <img src="https://frog-static.s3.ap-south-1.amazonaws.com/adventures_blog/blog/1706099455/1706099459_91cycle-blog-card.jpg" alt="" width="100%" height="500px" class="slide">
+    <img src="https://frog-static.s3.ap-south-1.amazonaws.com/adventures_blog/blog/1699423850/1699423862_91cycle-blog-card.jpg" alt="" width="100%" height="500px" class="slide">
+    <img src="https://frog-static.s3.ap-south-1.amazonaws.com/adventures_blog/blog/1699423017/1699423017_91cycle-blog-card.jpg" alt="" width="100%" height="500px" class="slide">
+    <img src="https://frog-static.s3.ap-south-1.amazonaws.com/adventures_blog/blog/1699422064/1699422077_91cycle-blog-card.jpg" alt="" width="100%" height="500px" class="slide">
+    <img src="https://frog-static.s3.ap-south-1.amazonaws.com/adventures_blog/blog/1675426382/1675426384_91cycle-blog-card.jpg" alt="" width="100%" height="500px" class="slide">
+</div>
+<div class="sbutton"><button onclick="goprev();">Prev</button><button onclick="gonext();">Next</button></div>
+
+    <div class="MAIN12"><div><i class="fa-regular fa-message fa-2xl" style="color: #ffa200;"></i><h2>NEED HELP?</h2><span>OUR DEDICATED TEAM ARE READY FOR HELP</span><br><button>chat now</button></div>
+    <div><i class="fa-solid fa-phone-volume fa-2xl" style="color: #ffa200;"></i><h2>CALL US</h2><span>TALK TO OUR 24/7 ABOUT YOUR NEEDS</span><h2 class="h23">666-880-3366</h2></div>
+    <div class="subamin12"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffa200;"></i><h2>SUBSCRIBE US</h2><span>AND GET THE SCOOP ON SALES AND NEW GEARS</span><br><input type="email" placeholder="Enter Email Address"><button class="but">subscribe</button></div></div>
+
+
+    <footer><div><h2>USEFUL LINKS</h2> <ul><li></li>
+    <li>Legal Privacy</li>
+    <li>Contact</li>
+    <li>Gift Cards</li>
+    <li>Customer Service</li>
+    <li>My Accounts</li></ul></div>
+    <div><h2>MY ACCOUNTS</h2> <ul><li></li>
+        <li>Legal Privacy</li>
+        <li>Contact</li>
+        <li>Gift Cards</li>
+        <li>Customer Service</li>
+        <li>My Accounts</li</ul></div>
+    <div><h2>SHOP</h2> <ul><li></li>
+        <li>Legal Privacy</li>
+        <li>Contact</li>
+        <li>Gift Cards</li>
+        <li>Customer Service</li>
+        <li>My Accounts</li</ul></div>
+    <div><h2>COMPANY</h2> <ul><li></li>
+        <li>Legal Privacy</li>
+        <li>Contact</li>
+        <li>Gift Cards</li>
+        <li>Customer Service</li>
+        <li>My Accounts</li></ul></div>
+        <div><h2>CONNECT WITH US</h2><div class="submainf"><div><i class="fa-brands fa-facebook-f fa-sm" style="color: #ffffff;"></i></div>
+        <div><i class="fa-brands fa-twitter fa-sm" style="color: #ffffff;"></i></div>
+        <div><i class="fa-brands fa-instagram fa-sm" style="color: #ffffff;"></i></div>
+        <div><i class="fa-brands fa-telegram fa-sm" style="color: #ffffff;"></i></div></div></div>
+    <span>Copywrite ® 2024 Ridez.All rights reserved</span></footer>
+    <script src="index.js"></script>
+</body>
+</html>
